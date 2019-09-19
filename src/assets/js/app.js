@@ -15,3 +15,7 @@ require('foundation-sites');
 
 
 $(document).foundation();
+
+$('#offcanvas-menu li a').click(()=> {
+    $('#offCanvas').foundation('close');
+})
