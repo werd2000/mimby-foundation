@@ -1,1 +1,1 @@
-# mimbytory
+# Mimby foundation
