@@ -75,7 +75,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: $primary-color;
+    background: $alert-color;
 }
 
 .promo {
@@ -95,15 +95,39 @@
     display: block;
 }
 
-.product .hover{
-    display: none;
-}
-
-.product:hover .normal {
-    display: none;
-}
+// .product .hover{
+    // display: none;
+    // opacity: .5;
+    // filter: alpha(.5);
+    // filter: sepia(100%)
+// }
 
 .product:hover .hover{
-    display: block;
-    
+    display: none;
+    // opacity: 1;
+}
+
+.product:hover {
+    // display: none;
+    opacity: 1;
+    filter: none;
+}
+
+// .product:hover .hover{
+//     display: block;    
+// }
+
+.product {
+    margin: 0;
+    opacity: .7;
+    filter: sepia(70%);
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $black;
+    height: 50px;
+    color: $white;
 }
